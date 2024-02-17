@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-export default function Home() {
+export default function SignIn() {
   return (
     <>
       <section className="bg-[#0D1117] h-screen flex flex-col pt-[2%] items-center">
@@ -44,7 +42,7 @@ export default function Home() {
             </a>
             <div className="flex gap-2">
               <p>New to GitHub?</p>
-              <a className="text-blue-500 hover:underline cursor-pointer">
+              <a href="/signUp" className="text-blue-500 hover:underline cursor-pointer">
                 Create an account
               </a>
             </div>
